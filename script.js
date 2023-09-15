@@ -97,9 +97,9 @@ const saveImage = () => {
     link.href = canvas.toDataURL();
     link.click();
 
-    // canvas.onclick = function () {
-    //     window.location = canvas.toDataURL('image/gif');
-    //     };
+    canvas.onclick = function () {
+        window.location = canvas.toDataURL('image/gif');
+        };
 }
 
 
